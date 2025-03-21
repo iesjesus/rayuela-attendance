@@ -37,7 +37,7 @@ Antes de ejecutar el programa, asegúrate de tener lo siguiente:
 Para ejecutar el programa, usa el siguiente comando:
 
 ```bash
-node procesarFaltas.js <archivo_entrada.xlsx> <archivo_salida.xlsx>
+node absentify.js <archivo_entrada.xlsx> <archivo_salida.xlsx>
 ```
 
 Donde:
@@ -47,7 +47,7 @@ Donde:
 ### Ejemplo:
 
 ```bash
-node procesarFaltas.js asistencia.xlsx asistencia_procesada.xlsx
+node absentify.js asistencia.xlsx asistencia_procesada.xlsx
 ```
 
 Este comando leerá el archivo `asistencia.xlsx`, procesará los datos de faltas y generará un archivo llamado `asistencia_procesada.xlsx`.
