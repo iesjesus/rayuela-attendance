@@ -68,7 +68,3 @@ Si deseas contribuir a este proyecto, puedes hacer un **fork** del repositorio y
 ## Licencia
 
 Este proyecto está bajo la **Licencia MIT**. Puedes ver los detalles completos en el archivo `LICENSE`.
-
----
-
-¡Esperamos que este proyecto sea útil para procesar la asistencia de tus estudiantes de forma sencilla y eficiente!
