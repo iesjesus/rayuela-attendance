@@ -32,12 +32,12 @@ function procesarExcel(inputFilePath, outputFilePath) {
     const cabeceraInferior = ['']; // Cabecera inferior (J, I, TOTAL)
 
     // Añadir las columnas de "Día completo"
-    cabeceraSuperior.push('Día completo');
+    //cabeceraSuperior.push('Día completo');
     cabeceraInferior.push('J', 'I', 'TOTAL');
 
     // Añadir las columnas de las asignaturas
     asignaturas.forEach(asignatura => {
-        cabeceraSuperior.push(asignatura); // Celda combinada con el nombre de la asignatura
+        cabeceraSuperior.push("", "", asignatura); // Celda combinada con el nombre de la asignatura
         cabeceraInferior.push('J', 'I', 'TOTAL'); // Subcabecera para Justificadas, Injustificadas y Total
     });
 
